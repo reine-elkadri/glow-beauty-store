@@ -25,17 +25,13 @@ A responsive beauty and skincare e-commerce frontend built with React.
 
 ## Run Locally
 
-1. Clone the repository.
-2. Open the project folder.
-3. Install dependencies:
+1. Install Node.js (LTS).
+2. Clone the repository.
+3. Open the project folder in VS Code.
+4. Run:
 
    ```bash
    npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
    npm run dev
    ```
 
@@ -43,11 +39,13 @@ A responsive beauty and skincare e-commerce frontend built with React.
 
 ## Build
 
-To create the production build, run:
-
 ```bash
 npm run build
 ```
+
+## Live Demo
+
+[Visit Glow Beauty Store](https://glow-beauty-store-rho.vercel.app/)
 
 ## Project Notes
 
