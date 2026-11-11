@@ -1,36 +1,54 @@
 # Glow — Beauty & Skincare Store
 
-A responsive React e-commerce frontend demonstration for a skincare and beauty store.
+A responsive beauty and skincare e-commerce frontend built with React.
 
 ## Features
-- Home, About, Shop, Product Details, Favorites, Cart, and Contact pages
-- Product search, category/brand/skin-concern filters, and sorting
-- Add/remove favorites with persistent `localStorage` storage
-- Add to bag, update quantities, remove items, and calculate totals
-- Demo checkout (no real payment processing)
-- Responsive layout for desktop, tablet, and mobile
+- Home, Shop, Product Details, About, FAQs, Contact, Login, Favorites, and Cart pages
+- Browse products by category and brand
+- Sort products by price
+- View detailed product information
+- Add and remove products from Favorites
+- Add products to Cart and update quantities
+- Calculate cart totals
+- Save Favorites and Cart using LocalStorage
+- Responsive design for desktop and mobile
 
-## Run locally
-1. Install Node.js (LTS).
-2. Extract the ZIP and open the `glow-beauty-store` folder in VS Code.
-3. Open a terminal in that folder.
-4. Run:
+## Technologies Used
+- React
+- JavaScript
+- React Router
+- Context API
+- LocalStorage
+- HTML
+- CSS
+- Bootstrap Icons
+
+## Run Locally
+
+1. Clone the repository.
+2. Open the project folder.
+3. Install dependencies:
 
    ```bash
    npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
    npm run dev
    ```
 
-5. Open the local URL printed by Vite (usually `http://localhost:5173`).
+5. Open the local URL displayed in the terminal.
 
-## Build for deployment
+## Build
+
+To create the production build, run:
+
 ```bash
 npm run build
 ```
-The production files will be generated in the `dist` folder.
 
-## Notes
-- Product images are loaded from Unsplash, so an internet connection is needed to display them.
-- Product catalog and checkout are sample/demo data. No real orders or payments are processed.
-- Favorites and cart are saved in the browser's localStorage.
-- This project is an original student-project starter. Customize the content, design, and implementation and cite any external assets you use.
+## Project Notes
+
+This project is a frontend demonstration. It does not include a connected backend, database, real authentication, or real payment processing.
